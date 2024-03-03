@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .disabled {
+    pointer-events: none; /* Disable pointer events */
+    color: #999; /* Dim the text color */
+  }
+}
